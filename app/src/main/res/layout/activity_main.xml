@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imagen" />
 
     <EditText
-        android:id="@+id/Descricion"
+        android:id="@+id/Descripcion"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Descripcion"
@@ -54,7 +54,7 @@
         android:hint="Telefono"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Descricion" />
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion" />
 
     <EditText
         android:id="@+id/Web"

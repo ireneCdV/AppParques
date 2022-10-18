@@ -16,8 +16,11 @@ class MainActivity : AppCompatActivity() {
         binding.BGuardar.setOnClickListener{
             val TAG=" nombre "
 
-            Log.d(TAG, "El parque es ${binding.Nombre.text} ")
-            Log.d(TAG, "El parque es ${binding.Descricion.text} ")
+            val miDialogo = MiDialogFragment()
+            miDialogo.show(supportFragmentManager, "MiDialogo")
+
+           /* Log.d(TAG, "El parque es ${binding.Nombre.text} ")
+            Log.d(TAG, "El parque es ${binding.Descripcion.text} ")
             Log.d(TAG, "El parque es ${binding.Telefono.text} ")
             Log.d(TAG, "El parque es ${binding.Web.text} ")
 
@@ -38,9 +41,9 @@ class MainActivity : AppCompatActivity() {
 
             //PARA LOS SPINNER
             Log.d(TAG, "La hora de apertura es ${binding.SpinnerHoraApertura.selectedItem}")
-            Log.d(TAG, "La hora de apertura es ${binding.SpinnerHoraCierre.selectedItem}")
+            Log.d(TAG, "La hora de cierre es ${binding.SpinnerHoraCierre.selectedItem}")
 
-
+        */
         }
 
 
